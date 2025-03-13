@@ -19,6 +19,10 @@ const completed = suvat.complete({
 });
 
 // use a specific formula
-// - solve for s, where u as the 2nd unknown.
-const s = suvat.formulas.s.u;
+// - solve for s, with u as the 2nd unknown.
+const s = suvat.formulas.s.u({
+	v: 3,
+	a: 4,
+	t: 5,
+});
 ```
